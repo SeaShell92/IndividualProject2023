@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Project Map</title>
+    <link rel="stylesheet" href="css/TheStyle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="js/allAccidents.js"></script>
+  </head>
+  <body>
+    <div id="page">
+        <navigation>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li class="active"><a href="projectMap.html">Map</a></li>
+            </ul>
+        </navigation>
+        <div id="alert">
+          <p>This is the map page. This space is reserved for messages.</p>
+        </div>
+        <div id="left_menu"><p>left menu space - future space for filters?</p></div>
+        <section>
+          <div id="map_space"><p>map space</p></div>
+        </section>
+        <div id="content"><p>Information that changes a lot can go down here? (content)</p></div>
+        <footer>
+          <p>Footer - webpage design &copy; Shelley Lay 2023.  See map for additional attribution.</p>
+        </footer>
+    </div>
+    <script>
+      var theMap = L.map('map_space', {
+          center:[51.5, -3.4],
+          zoom: 9
+      });
+
+      var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: 'Map Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(theMap);
+
+      //var marker1 = L.marker([51.5, -3.4]).addTo(theMap);
+
+      var clusterAll = L.markerClusterGroup();
+      var markerAll = L.geoJSON(accidentCoords);
+      clusterAll.addLayer(markerAll);
+      theMap.addLayer(clusterAll);
+      </script>
+  </body>
+</html>
