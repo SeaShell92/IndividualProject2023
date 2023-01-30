@@ -1,0 +1,125 @@
+"id","geom","name","address_1","postcode","type","service","_24hr"
+1,"0101000020346C0000A2A470C15DA40F415B019D6B3F331141","Bronglais General Hospital","Caradog Road, Aberystwyth","SY23 1ER","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+2,"0101000020346C000082B6BE1A5E5412414337B33250F31641","Glan Clwyd Hospital","Rhuddlan Road, Bodelwyddan, Rhyl, Denbighshire","LL18 5UJ","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+3,"0101000020346C0000B898EB3B62A30D41409AEC65E0010B41","Glangwili General Hospital","Dolgwili Road, Glangwili, Carmarthen","SA31 2AF","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+4,"0101000020346C0000C24D837B2B41104174F5439294700841","Morriston Hospital","Swansea, Heol Maes Eglwys, Cwmrhydyceirw, Swansea","SA6 6NL","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+5,"0101000020346C000022FD4B190E1214410ABC2DF9732F0A41","Nevill Hall Hospital","Brecon Road, Abergavenny, Gwent","NP7 7EG","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+6,"0101000020346C000005EA13339095124104AD645F2C690941","Prince Charles Hospital","Merthyr Tydfil, Mid Glamorgan","CF47 9DT","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+7,"0101000020346C000072A968B4A9C311419C7F527270190641","Princess of Wales Hospital","Coity Road, Bridgend, Mid Glamorgan","CF31 1RQ","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+8,"0101000020346C000036ED6B9C90881241D2F1C94A98790641","Royal Glamorgan Hospital","Ynysmaerdy, Pontyclun, Llantrisant","CF72 8XR","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+9,"0101000020346C00008242004CDA32144180FE639580DB0641","Royal Gwent Hospital","Cardiff Road, Newport, Gwent","NP20 2UB","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+10,"0101000020346C000090659E84C7611341823F407FE1E30541","University Hospital of Wales","Heath Park, Cardiff","CF14 4XW","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+11,"0101000020346C00006D9F50381AE40741D4D5E7C937780A41","Withybush General Hospital","Fishguard Road, Haverfordwest, Pembs.","SA61 2PZ","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+12,"0101000020346C0000C0DC2BD0634914412D0F54C856621541","Wrexham Maelor Hospital","Croesnewydd Road, Wrexham","LL13 7TD","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+13,"0101000020346C000036D7E1C0A33B0F4164530502F8971641","Ysbyty Gwynedd","Penrhosgarnedd, Bangor, Gwynedd","LL57 2PW","Type of Hospital: Major acute  -  Major A&E - Open","Major A&E","24"
+14,"0101000020346C00007615F63B79D10E41863D7AF6DB940841","Prince Philip Hospital","Bryngwyn Mawr, Dafen, Llanelli","SA14 8QF","Type of Hospital: Major acute  -  Minor A&E - Open","Minor A&E","24"
+15,"0101000020346C000054D0FC6977F712418A7D077913A40441","Barry Hospital","Colcot Road, Barry, South Glamorgan","CF62 8YH","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+16,"0101000020346C000034BBD1DD6B9C1241566056F650EC0B41","Brecon War Memorial Hospital","Cerrigochion Road, Brecon, Powys","LD3 7NS","Type of Hospital: Community","Minor Injuries Unit","24"
+17,"0101000020346C00000330740B0C2F0D4154CB6FD0F49B1441","Bryn Beryl Hospital","Caernarfon Road, Pwllheli, Gwynedd","LL53 6TT","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+18,"0101000020346C00009D6071C685AB1241382FE00D7D5C1641","Denbigh Community Hospital","Ruthin Road, Denbigh, Denbighshire","LL16 3ES","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+19,"0101000020346C0000A1CBAF386DAA1041A7B3A79E10621341","Dolgellau & Barmouth District Hospital","Dolgellau, Gwynedd","LL40 1NT","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+20,"0101000020346C00007CE2461CC875134179DF6F0E56EB1641","Holywell Community Hospital","Halkyn Road, Holywell, Flintshire","CH8 7TZ","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+21,"0101000020346C00000B020A66C8AE124134907DCA6BEB0F41","Llandrindod Wells County War Memorial Hospital","Temple Street, Llandrindod Wells, Radnor, Powys","LD1 5HF","Type of Hospital: Community","Minor Injuries Unit","24"
+22,"0101000020346C0000FEC562DF2BFC10410582637653401741","Llandudno General Hospital","Hospital Road, Llandudno, Conwy","LL30 1LB","Type of Hospital: Acute","Minor Injuries Unit","Not 24"
+23,"0101000020346C0000415F4BDA36CF1041124FA46E36400741","Neath Port Talbot Hospital","Baglan Way, Port Talbot","SA12 7BX","Type of Hospital: Acute","Minor Injuries Unit","24"
+24,"0101000020346C00002CA01EEA97071041B016B5CC556D0741","Singleton Hospital","Sketty Lane, Sketty, Swansea","SA2 8QA","Type of Hospital: Major acute","Minor Injuries Unit","Not 24"
+25,"0101000020346C0000A0D9474BFD9F0F415932BBD791571241","Tywyn Memorial Hospital","Bryn Hyfryd Road, Tywyn, Gwynedd","LL36 9HH","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+26,"0101000020346C0000C647AC215DB31341DA2F39CB3FC91241","Victoria Memorial Hospital","Salop Road, Welshpool, Powys","SY21 7DU","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+27,"0101000020346C0000264D80C5904E124184F8969066B30741","Ysbyty Cwm Rhondda","Partridge Road, Llwynypia","CF40 2LX","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+28,"0101000020346C000029381E6E40900B415D93EF9D8A4D1741","Ysbyty Penrhos Stanley","Penrhos Beach Road, Holyhead, Anglesey","LL65 2QA","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+29,"0101000020346C000034F486243CD01241D4896C689F350741","Pontypridd & District Cottage Hospital (Y Bwthyn)","The Common, Pontypridd, Glamorgan","CF37 4AL","Type of Hospital: Acute",NULL,NULL
+30,"0101000020346C0000F02B6D56C62D144186BF778CF8E30641","St. Woolos Hospital","Stow Hill, Newport","NP20 4SZ","Type of Hospital: Acute",NULL,NULL
+31,"0101000020346C000012E80740F775114128E8D2C8F7141741","Colwyn Bay Clinic","Myrtle Villa, 19 Nant-Y-Glyn Road, Colwyn Bay, Conwy","LL29 8AY","Type of Hospital: Clinic",NULL,NULL
+32,"0101000020346C00009D6071C685AB1241382FE00D7D5C1641","Denbigh Clinic","Denbigh Infirmary, Ruthin Road, Denbigh, Denbighshire","LL16 3ES","Type of Hospital: Clinic",NULL,NULL
+33,"0101000020346C00001863772A36FC114172456A21FFEB1641","Abergele Hospital","Llanfair Road, Abergele","LL22 8DP","Type of Hospital: Community",NULL,NULL
+34,"0101000020346C00000BCF86229E5210419AE5CB19F71F0A41","Amman Valley Hospital","Folland Road, Glanamman, Ammanford","SA18 2BQ","Type of Hospital: Community",NULL,NULL
+35,"0101000020346C0000D8FC93BBA1261341A4B2824333B00C41","Bronllys Hospital","Bronllys, Brecon, Powys","LD3 0LS","Type of Hospital: Community",NULL,NULL
+36,"0101000020346C00004167786D537E134154DD9AEDD1980541","Cardiff Royal Infirmary","Glossop Terrace, Cardiff","CF24 0SZ","Type of Hospital: Community",NULL,NULL
+37,"0101000020346C00007CC94FACD5A00A4112DB0095D3080E41","Cardigan & District Memorial Hospital","Pontyceifion, Cardigan","SA43 1DP","Type of Hospital: Community",NULL,NULL
+38,"0101000020346C000090659E84C7611341823F407FE1E30541","Children's Hospital for Wales","University Hospital of Wales, Heath Park, Cardiff","CF14 4XW","Type of Hospital: Community",NULL,NULL
+39,"0101000020346C00001CA74AF0A21A14417B11AEBEA3B01441","Chirk Community Hospital","off John's Street, Chirk, Wrexham","LL14 5LN","Type of Hospital: Community",NULL,NULL
+40,"0101000020346C000012E80740F775114128E8D2C8F7141741","Colwyn Bay Community Hospital","Hesketh Road, Colwyn Bay, Conwy","LL29 8AY","Type of Hospital: Community",NULL,NULL
+41,"0101000020346C000073548344221714415C76D5754E610841","County Hospital","Coed y Gric Road, Griffithstown, Pontypool, Gwent","NP4 5YA","Type of Hospital: Community",NULL,NULL
+42,"0101000020346C0000A3C6DB56942C1441A16E4BFA56721641","Deeside Community Hospital","Plough Lane, Higher Shotton, Deeside, Flintshire","CH5 1XS","Type of Hospital: Community",NULL,NULL
+43,"0101000020346C0000194D2A3D44BD1241C4B13A7FCF260741","Dewi Sant Hospital","Albert Road, Pontypridd, Mid Glamorgan","CF37 1LB","Type of Hospital: Community",NULL,NULL
+44,"0101000020346C00000E4EDE3E355C0E410E0A219E34121641","Eryri Hospital","Lôn Parc, Caernarfon, Gwynedd","LL55 2YE","Type of Hospital: Community",NULL,NULL
+45,"0101000020346C0000EE525106247E104105F6E99971171541","Ffestiniog Memorial Hospital","Wynne Rd, Blaenau Ffestiniog, Gwynedd","LL41 3DW","Type of Hospital: Community",NULL,NULL
+46,"0101000020346C0000A8050EDC970C104150500D951DA30741","Hill House Hospital","Sketty, Swansea","SA2 0FB","Type of Hospital: Community",NULL,NULL
+47,"0101000020346C0000A2A50047550E144186A7713DE59A1041","Knighton Hospital","Ffrydd Road, Knighton, Radnor, Powys","LD7 1DF","Type of Hospital: Community",NULL,NULL
+48,"0101000020346C0000F5B7A019F6E310415C9CB015FFAB0C41","Llandovery Hospital","Llanfair Road, Llandovery","SA20 0LA","Type of Hospital: Community",NULL,NULL
+49,"0101000020346C0000D0D1E8D4B3081241D0256FAC83641141","Llanidloes War Memorial Hospital","Eastgate Street, Llanidloes, Powys","SY18 6HF","Type of Hospital: Community",NULL,NULL
+50,"0101000020346C00002E291B49F1C91041E25B51092A5E1241","Machynlleth Community Hospital (Bro Ddyfi)","Newtown Road, Machynlleth, Powys","SY20 8AD","Type of Hospital: Community",NULL,NULL
+51,"0101000020346C0000C3CF8C170E5D11411257937F3E620741","Maesteg Community Hospital","Neath Road, Maesteg, Bridgend","CF34 9PW","Type of Hospital: Community",NULL,NULL
+52,"0101000020346C000093C74F5A585E1541941DD6EE1CF50941","Monnow Vale Health & Social Care Facility","Trefynwy Suite (Wards), Drybridge Park, Monmouth, Monmouthshire","NP25 5BL","Type of Hospital: Community",NULL,NULL
+53,"0101000020346C000090DB6B743EFA12418D22834EEBD61141","Montgomery County Infirmary","Llanfair Road, Newtown, Powys","SY16 2DW","Type of Hospital: Community",NULL,NULL
+54,"0101000020346C0000B1D47D8385FE1241CA74D73B02570941","Redwood Memorial Hospital","The Terrace, Rhymney","NP22 5LY","Type of Hospital: Community",NULL,NULL
+55,"0101000020346C00000A3F87EDAD66124109746FB45B521741","Royal Alexandra Hospital","Marine Drive, Rhyl, Denbighshire","LL18 3AS","Type of Hospital: Community",NULL,NULL
+56,"0101000020346C000094A7FE51FD181341FD264FDB79DB1541","Ruthin Community Hospital","Llanrhydd Street, Ruthin, Denbighshire","LL15 1PS","Type of Hospital: Community",NULL,NULL
+57,"0101000020346C000076FDA5986AE50741DA12D5F5C9D70841","South Pembrokeshire Hospital","Fort Road, Pembroke Dock, Pembrokeshire","SA72 6SY","Type of Hospital: Community",NULL,NULL
+58,"0101000020346C0000F285C996CF5D1341DCC3EEF7618E0541","St. Davids Hospital (Cardiff)","Cowbridge Road East, Cardiff","CF11 9XB","Type of Hospital: Community",NULL,NULL
+59,"0101000020346C0000D4107AAFB4070A41BC3E21AEB68C0841","Tenby Cottage Hospital","Gas Lane, The Norton, Tenby, Pembrokeshire","SA70 8AG","Type of Hospital: Community",NULL,NULL
+60,"0101000020346C00000B746C81625810418AC505D64AA60F41","Tregaron Hospital","Tregaron","SY25 6JP","Type of Hospital: Community",NULL,NULL
+61,"0101000020346C0000F00B7B0F21131241A8AE001076F40741","Ysbyty George Thomas","Cwmparc Road, Ystrad Fechan, Treorchy, Mid Glamorgan","CF42 6YG","Type of Hospital: Community",NULL,NULL
+62,"0101000020346C000024D12E072AB20E41C8C33EEA52850841","Bryntirion Hospital","Llanelli, Carmarthenshire","SA15 3DX","Type of Hospital: Community Hospital: Elderly Ment",NULL,NULL
+63,"0101000020346C00002788362E7E130E411DB0217C4DEF1641","Cefni Hospital","Llangefni, Gwynedd","LL77 7PP","Type of Hospital: Community Hospital: Elderly Ment",NULL,NULL
+64,"0101000020346C0000896E0D5276DF104134E94692E4EC0741","Cimla Hospital","Cimla, Neath","SA11 3SU","Type of Hospital: Community Hospital: Elderly Ment",NULL,NULL
+65,"0101000020346C0000B6FEE9D39EB3104184BF22200CF10841","Gellinudd Hospital","Lon Catwg, Gellinudd, Pontardawe, Swansea","SA8 3DX","Type of Hospital: Community Hospital: Elderly Ment",NULL,NULL
+66,"0101000020346C00001589CEA288130F41824FC39A72A80941","Mynydd Mawr Hospital","Llannon Road, Upper Tumble, Llanelli","SA14 6BU","Type of Hospital: Community Hospital: Elderly Ment",NULL,NULL
+67,"0101000020346C0000122CA876DC970E41102CA05EC2800841","Brynmair Clinic Day Hospital","11 Goring Road, Llanelli, Carmarthenshire","SA15 3HF","Type of Hospital: Day Hospital",NULL,NULL
+68,"0101000020346C00006C3FBA164BA50F414BCDF44CA22C1141","Gorwelion Day Hospital","Llanbadarn Road, Aberystwyth, Ceredigion","SY23 1HB","Type of Hospital: Day Hospital",NULL,NULL
+69,"0101000020346C00001091170D1E6A11418317939021181741","Nant Y Glyn Health Resource Centre","10 Nant Y Glyn Road, Colwyn Bay, Conwy","LL29 7RB","Type of Hospital: Day Hospital",NULL,NULL
+70,"0101000020346C00003A1FE89BFF0410417228A5AE11F00941","Swn-y-Gwynt Day Hospital","Tir-y-Dail Lane, Ammanford, Carmarthenshire","SA18 3AS","Type of Hospital: Day Hospital",NULL,NULL
+71,"0101000020346C000086F1D4B8C3511341C00E388DD21D0541","University Hospital Llandough","Penlan Road, Penarth","CF64 2XX","Type of Hospital: Major acute",NULL,NULL
+72,"0101000020346C000008D1002F66361441F248BB5087C20741","Llanfrechfa Grange","Cwmbran","NP44 8YN","Type of Hospital: Psychiatric: Learning disability",NULL,NULL
+73,"0101000020346C00001191D9AAB9421041EA30A4182F3F0841","Llwyneryr Unit","Learning Disability Services, Clasemont Road, Morriston, Swansea","SA6 6AH","Type of Hospital: Psychiatric: Learning disability",NULL,NULL
+74,"0101000020346C000099FC8FC50E5312413A8F24E2AAEF1641","Ablett Unit","Ysbyty Glan Clwyd, Bodelwyddan, Rhyl","LL18 5UT","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+75,"0101000020346C00007196B166D7F910412B971F5BB0431741","Bodnant EMI Unit","Maesdu Road, Llandudno","LL30 1QY","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+76,"0101000020346C00006D9F50381AE40741D4D5E7C937780A41","Bro Cerwyn / St Brynach Day Hospitals","Fishguard Road, Haverfordwest, Pembrokeshire","SA61 2PZ","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+77,"0101000020346C0000A8D1DF57AF761141D5AD940CA5131741","Bryn Hesketh Unit","Hesketh Road, Colwyn Bay, Conwy","LL29 8AT","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+78,"0101000020346C0000388A4CE17F04104164B5D27A6DAF0741","Cefn Coed Hospital","Cockett, Swansea","SA2 0GH","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+79,"0101000020346C00000A3F87EDAD66124109746FB45B521741","Glan Traeth","Royal Alexandra Hospital, Marine Drive, Rhyl, Denbighshire","LL18 3AS","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+80,"0101000020346C0000676EA2C375B211416AF0F345C8390641","Glanrhyd Hospital","Tondu Road, Bridgend, Mid Glamorgan","CF31 4LN","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+81,"0101000020346C0000477632845AF81041C6F8A00E45570841","Local Primary Mental Health Support Services, Tonn",NULL,"SA11 3LX","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+82,"0101000020346C0000FEAE98D8553C14415E23EDF5134B0A41","Maindiff Court Hospital","Ross Road, Abergavenny, Monmouthshire","NP7 8NF","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+83,"0101000020346C00001863772A36FC114172456A21FFEB1641","North Wales Adolescent Service","Abergele Hospital, Llanfair Road, Abergele","LL22 8DP","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+84,"0101000020346C0000D2B13F5F9E5514415654D8339B4E0741","St. Cadocs Hospital","Lodge Road, Caerleon","NP18 3XQ","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+85,"0101000020346C000073548344221714415C76D5754E610841","Talygarn Unit","Grounds of County Hospital, Coed-y-Gric Road, Griffithstown, Pontypool","NP4 5YA","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+86,"0101000020346C0000477632845AF81041C6F8A00E45570841","Tonna Hospital","Tonna Uchaf, Neath","SA11 3LX","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+87,"0101000020346C0000A8E5EFBD1F34134194E6593BD1090641","Whitchurch Hospital","Whitchurch, Cardiff","CF14 7XB","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+88,"0101000020346C0000A00900AAD05313411EDDA34470890941","Ysbyty'r Tri Chwm","College Road, Blaenau Gwent","NP23 6HA","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
+89,"0101000020346C0000264A46D52456104191476DD227DD1641","Bryn y Neuadd Hospital","Aber Road, Llanfairfechan, Conwy","LL33 0HH","Type of Hospital: Psychiatric: Mental illness / Le",NULL,NULL
+90,"0101000020346C0000A97F940E40340D41AE83A2BDA0DA0A41","Cwm Seren, Tudor House & Ty Bryn","Hafan Derwen, Jobswell Road, Carmarthen","SA31 3HB","Type of Hospital: Psychiatric: Mental illness / Le",NULL,NULL
+91,"0101000020346C000082B6BE1A5E5412414337B33250F31641","North Wales Cancer Treatment Centre","Ysbyty Glan Clwyd, Rhuddlan Road, Bodelwyddan, Rhyl","LL18 5UJ","Type of Hospital: Specialist acute",NULL,NULL
+92,"0101000020346C00009BF44CBEA73A13418AF0F1A741BA0541","Rookwood Hospital","18-20 Fairwater Road, Llandaff, Cardiff","CF5 2YN","Type of Hospital: Specialist acute",NULL,NULL
+93,"0101000020346C000090659E84C7611341823F407FE1E30541","University Dental Hospital","Heath Park, Cardiff","CF14 4XW","Type of Hospital: Specialist acute",NULL,NULL
+94,"0101000020346C00003E1A445F80BC1341A54CFB81ED3A1641","Mold Community Hospital","Ash Grove, Mold, Flintshire","CH7 1XG","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+95,"0101000020346C000056A988AF7C330F41BBEE347976C61441","Ysbyty Alltwen","Tremadog, Gwynedd","LL49 9AQ","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+96,"0101000020346C000020189A280B5B13410C309FB2CC700941","Ysbyty Aneurin Bevan","Festival Drive, Ebbw Vale, Bleanau Gwent","NP23 6GL","Type of Hospital: Acute","Minor Injuries Unit","Not 24"
+97,"0101000020346C00001F041C5C8C8B1241181430C7A55D0841","Ysbyty Cwm Cynon","New Road, Mountain Ash, Rhondda Cynon Taff","CF45 4BZ","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+98,"0101000020346C00003C99DF90DF31134108521A0F27A20741","Ysbyty Ystrad Fawr","Ystrad Fawr Way, Ystrad Mynach, Hengoed","CF82 7GP","Type of Hospital: Acute","Minor Injuries Unit","24"
+99,"0101000020346C0000E2F5E95DFEFC104124D92B6B33860941","Ystradgynlais Community Hospital","Glanrhyd Road, Ystradgynlais, Swansea","SA9 1AU","Type of Hospital: Community","Minor Injuries Unit","Not 24"
+100,"0101000020346C000021655795CA670D415E7BCA8BB0DC0A41","Carmarthenshire Local Committee","103 Lammas Street, Carmarthen","SA31 3AP","Type of Hospital: CHC Local Committee",NULL,NULL
+101,"0101000020346C0000E9D4D08E45DB0F419DC05E8D7B1A1141","Ceredigion Local Committee","Merlin House, Parc Merlin, Aberystwyth","SY23 2NL","Type of Hospital: CHC Local Committee",NULL,NULL
+102,"0101000020346C0000974E79F965761441E013B5003C691541","Wrexham Local Committee","Cartrefle, Cefn Road, Wrexham","LL13 9NH","Type of Hospital: CHC Local Committee",NULL,NULL
+103,"0101000020346C0000E0370598A6F71141FF8E44F4B30B1741","Abergele Clinic","Market Street, Abergele, Conwy","LL22 7BP","Type of Hospital: Clinic",NULL,NULL
+104,"0101000020346C00005A36BBCE87011141AEF81C5A0B501741","Argyll Road Health Clinic","Argyll Road, Llandudno, Conwy","LL30 1DF","Type of Hospital: Clinic",NULL,NULL
+105,"0101000020346C000040D2422D62461241C128CE3294EF1641","Bodelwyddan Clinic","Ysgol-Faenol, Bodelwyddan, Abergele, Conwy","LL18 5TG","Type of Hospital: Clinic",NULL,NULL
+106,"0101000020346C00005C0EFBE5F2071241581F835F3A471541","Cerrigydrudion Clinic","Kings Road, Cerrigydrudion, Denbighshire","LL21 9SU","Type of Hospital: Clinic",NULL,NULL
+107,"0101000020346C0000ED757897BF391141078A5CCC670A1741","Conwy Health Clinic","Muriau Buildings, Rosehill Street, Conwy","LL32 8LD","Type of Hospital: Clinic",NULL,NULL
+108,"0101000020346C0000683629F235CC124151A0EFFD66F81441","Corwen Clinic","Green Lane, Corwen, Wrexham","LL21 9DN","Type of Hospital: Clinic",NULL,NULL
+109,"0101000020346C00007C3BFE2D735E124192A4922C0A3E1741","Fforddlas Health Centre","Fforddlas, Marsh Road, Rhyl, Denbighshire","LL18 3EP","Type of Hospital: Clinic",NULL,NULL
+110,"0101000020346C0000DC8B4B29023F1241BADF3ECCC3371741","Kinmel Bay Clinic","57 Foryd Road, Kinmel Bay, Rhyl, Conwy","LL18 5LU","Type of Hospital: Clinic",NULL,NULL
+111,"0101000020346C0000E26DBDF566AD11417C31EFE853081741","Llysfaen Clinic","Llysfaen Community Centre, Ysgol Cynfran CP, Dolwyn Road, Llysfaen, Colwyn Bay, Conwy","LL29 8SS","Type of Hospital: Clinic",NULL,NULL
+112,"0101000020346C0000A7DD238CFB3D1141747E4EB4EF1B1741","Mochdre Clinic","Mochdre Infants School, Station Road, Mochdre, Colwyn Bay, Conwy","LL28 5EF","Type of Hospital: Clinic",NULL,NULL
+113,"0101000020346C000094D6AA87301413411B2360CCBDE01541","Plas Meddyg","Station Road, Ruthin, Denbighshire","LL15 1BP","Type of Hospital: Clinic",NULL,NULL
+114,"0101000020346C000082C54FE3D1B51241B672B9B6DB5C1741","Prestatyn Clinic","Kings Avenue, Prestatyn","LL19 9AA","Type of Hospital: Clinic",NULL,NULL
+115,"0101000020346C0000AADD7F69D7541141DFE3F28C273A1741","Rhos-On-Sea Clinic","Parkway Community Centre, Parkway, Off Rhos Road, Rhos-On-Sea, Conwy","LL28 4SD","Type of Hospital: Clinic",NULL,NULL
+116,"0101000020346C0000F9528BEA1D741241BB36D40040171741","Rhuddlan Clinic","Vicarage Lane, Rhuddlan, Denbighshire","LL18 2UE","Type of Hospital: Clinic",NULL,NULL
+117,"0101000020346C000059C2575B11121341136544D085E01541","Ruthin Clinic","Mount Street, Ruthin, Denbighshire","LL15 1BG","Type of Hospital: Clinic",NULL,NULL
+118,"0101000020346C0000E03121DE35851241E6E14F61A4D81641","St Asaph Clinic","Pen-Y-Bont, The Roe, St Asaph, Denbighshire","LL17 0LU","Type of Hospital: Clinic",NULL,NULL
+119,"0101000020346C0000EF703A172F951141D55AB0D2CB111741","Tan-Y-Marian Clinic","Tan-Y-Marian Community Room, Ysgol Tan-Y-Marian, Swn-Y-Don, Penmaenrhos, Conwy","LL29 9LL","Type of Hospital: Clinic",NULL,NULL
+120,"0101000020346C0000A70B7F6D14851541547C522368A20741","Chepstow Community Hospital","Tempest Way, Chepstow, Monmouthshire","NP16 5YX","Type of Hospital: Community",NULL,NULL
+121,"0101000020346C0000FA81EFA0AB8212412A4F7A87B4260F41","Glan Irfon Health and Social Care Centre (Builth W",NULL,"LD2 3DG","Type of Hospital: Community",NULL,NULL
+122,"0101000020346C000083321B45888D0F41D0D78E87A44B0841","Gorseinon Hospital","Gorseinon, Swansea","SA4 4UU","Type of Hospital: Community",NULL,NULL
+123,"0101000020346C00005A9FF7EAFD65124112812EB453501741","Hafod Mental Health Resource Centre","Beechwood Road, Rhyl, Denbighshire","LL18 1SG","Type of Hospital: Day Hospital",NULL,NULL
+124,"0101000020346C0000CDD59077BDC211415A2EEAB2D51A0841","Garngoch Hospital","Ty Garngoch, Hospital Road, Gorseinon, Swansea","SA4 4LH","Type of Hospital: Psychiatric: Mental illness",NULL,NULL
