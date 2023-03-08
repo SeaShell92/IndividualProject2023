@@ -44,5 +44,22 @@ var schoolsLayer = L.geoJSON(schoolGeoJson, {
 //circle around a single school
 //var schoolCircle = L.circle([51.5091, -3.2471], {radius: 200}).addTo(theMap);
 
+//accidents inside school radius
+//custom marker for accident markers
+var markerOptions = {
+    radius: 6,
+    fillColor: '#ef05f7',
+    color: '#000',
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+var schoolAccidents = L.geoJSON(schoolAccidents, {
+    pointToLayer: function (feature, latlng){
+        return L.circleMarker(latlng, markerOptions);
+    }
+}).addTo(theMap);
+
 //when adding future layers adapt this code:
 //layerControl.addOverlay(layerVariable, "Layer Name");
