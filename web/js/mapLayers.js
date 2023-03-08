@@ -34,32 +34,83 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // var cluster = L.layerGroup([markerAll]);
 
 //Schools as points with circles on each point
-var schoolsLayer = L.geoJSON(schoolGeoJson, {
-    onEachFeature: function (feature) {
-        let circleCoords = L.GeoJSON.coordsToLatLng(feature.geometry.coordinates)    
-        L.circle(circleCoords, {radius: 500}).addTo(theMap)
-    }
-}).addTo(theMap);
+// var schoolsLayer = L.geoJSON(schoolGeoJson, {
+//     onEachFeature: function (feature) {
+//         let circleCoords = L.GeoJSON.coordsToLatLng(feature.geometry.coordinates)    
+//         L.circle(circleCoords, {radius: 500}).addTo(theMap)
+//     }
+// }).addTo(theMap);
 
 //circle around a single school
 //var schoolCircle = L.circle([51.5091, -3.2471], {radius: 200}).addTo(theMap);
 
 //accidents inside school radius
 //custom marker for accident markers
-var markerOptions = {
+// var markerOptions = {
+//     radius: 6,
+//     fillColor: '#ef05f7',
+//     color: '#000',
+//     weight: 1,
+//     opacity: 1,
+//     fillOpacity: 0.5
+// };
+
+// var schoolAccidents = L.geoJSON(schoolAccidents, {
+//     pointToLayer: function (feature, latlng){
+//         return L.circleMarker(latlng, markerOptions);
+//     }
+// }).addTo(theMap);
+
+//hospitals
+var slightMarker = {
     radius: 6,
-    fillColor: '#ef05f7',
+    fillColor: 'green',
+    color: '#000',
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.25
+};
+var seriousMarker = {
+    radius: 6,
+    fillColor: '#fa9107',
+    color: '#000',
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 1
+};
+var fatalMarker = {
+    radius: 6,
+    fillColor: 'red',
     color: '#000',
     weight: 1,
     opacity: 1,
     fillOpacity: 0.5
 };
 
-var schoolAccidents = L.geoJSON(schoolAccidents, {
+var hospitalPoints = L.geoJSON(hospitalGeoJson, {
     pointToLayer: function (feature, latlng){
-        return L.circleMarker(latlng, markerOptions);
+        return L.circle(latlng, {radius: 1000})
     }
-}).addTo(theMap);
+})
+
+theMap.addLayer(hospitalPoints);
+
+var hospitalAccidents = L.geoJSON(hospitalAccidents, {
+    pointToLayer: function (feature, latlng){
+        if (feature.properties.severity == 1){
+            markerStyle = fatalMarker
+        }
+        else if (feature.properties.severity == 2){
+            markerStyle = seriousMarker
+        }
+        else{
+            markerStyle = slightMarker
+        }
+        return L.circleMarker(latlng, markerStyle);
+    }
+})
+
+theMap.addLayer(hospitalAccidents);
 
 //when adding future layers adapt this code:
 //layerControl.addOverlay(layerVariable, "Layer Name");
