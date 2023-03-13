@@ -1,6 +1,12 @@
 https://www.flaticon.com/free-icon/critical_7037197
 Exclamation mark icon created by Febrian Hidayat
-(08/03/2023)
+(accessed: 08/03/2023)
 
-size: 32, 32
-marker center: 16, 31
+max size: 32, 32
+marker center (max size): 16, 31
+
+https://www.flaticon.com/free-icon/education_5193827 
+School pointer icon created by nawicon (accessed: 13/03/2023)
+
+max size: 32, 32
+marker center (max size): 15, 31

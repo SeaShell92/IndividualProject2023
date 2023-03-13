@@ -17,27 +17,37 @@ var cluster = L.layerGroup([clusterAll]);
 
 // create a map object
 var theMap = L.map( 'map_space', {
-    center:[52.003, -3.808],
-    zoom: 9,
+    center:[52.403, -3.808],
+    zoom: 8,
+    minZoom: 2,
     layers: [osm, cluster]
 });
 
-//Schools as points with circles on each point
+//custom marker for school points
+var schoolIcon = L.icon({
+    iconUrl: 'img/school-point.png',
+    iconSize: [24, 24],
+    iconAnchor: [11, 23]
+});
+
+//Schools as points 
 var schoolsLayer = L.geoJSON(schoolGeoJson, {
-    onEachFeature: function (feature) {
-        let circleCoords = L.GeoJSON.coordsToLatLng(feature.geometry.coordinates)    
-        L.circle(circleCoords, {radius: 500}) //.addTo(theMap)
+    pointToLayer: function (feature, latlng){
+        return L.marker(latlng, {icon: schoolIcon})
     }
 });
 
-//circles around schools remain on the map or are (currently) missing from the map.
-//they are not part of the schools layer group for some reason.
-//need to fix.
+//schools as circles, to show radius
+var schoolCircles = L.geoJSON(schoolGeoJson, {
+    pointToLayer: function (feature, latlng){
+        return L.circle(latlng, {radius: 500})
+    }
+});
 
 //accidents inside school radius (circle)
-//custom marker for accident markers
+//custom marker for accident points
 var markerOptions = {
-    radius: 6,
+    radius: 5,
     fillColor: '#ef05f7',
     color: '#000',
     weight: 1,
@@ -51,8 +61,8 @@ var schoolAccidents = L.geoJSON(schoolAccidents, {
     }
 });
 
-//the school points and accident points become one layer
-var schools = L.layerGroup([schoolsLayer, schoolAccidents]);
+//the school points, circles and accident points combine to become one layer
+var schools = L.layerGroup([schoolsLayer, schoolCircles, schoolAccidents]);
 
 //hospitals
 //colour coded markers 

@@ -3,6 +3,13 @@ html {
   width: 100%;
 }
 
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+}
+
 body {
   font-family: Verdana, Tahoma, Geneva, 'Segoe UI', sans-serif;
 	display: flex;
@@ -13,6 +20,7 @@ body {
 	margin: auto;
 }
 
+/*The style for the navigation bar*/
 navigation {
   width: 980px;
   margin: 0;
@@ -53,6 +61,7 @@ navigation ul li a:hover {
   cursor: default;
 }
 
+/*The style for the footer*/
 footer{
   width: 980px;
   height: 40px;
@@ -63,27 +72,15 @@ footer{
 }
 
 /* Content of the website */
-
 #content {
   flex: 1 0 auto;
   width: 980px;
   min-height: 500px;
-  padding: 0 30px;
 }
 
-#alert{
-  padding: 0 30px;
-}
-
-#left_menu{
-  float: left;
-  background-color: red;
-  width: 10%;
-  height: 570px;
-  overflow: auto;
-  color: White;
-  padding: 20px;
-  margin-right: 10px;
+#message {
+  flex: 1 0 auto;
+  width: 980px;
 }
 
 #map_space{
@@ -92,124 +89,3 @@ footer{
   background-color: white;
   border: 2px solid black;
 }
-
-table{
-  padding-left: 10px;
-}
-
-/* Actions 
-
-.actions{
-  margin-bottom: 1em;
-}
-
-/* Links 
-
-a.text:link {text-decoration: none; color: white;}
-a.text:visited {color: yellow;}
-a.text:hover {text-decoration: underline;}
-
-a.back-link:link {color: white;}
-a.back-link:visited {color: yellow;}
-
-/* Session messages 
-#message {
-  color: yellow;
-  border:2px solid white;
-  padding: 1em 10px;
-  margin: 1em 10px;
-  width: 890px;
-}
-
-/* Lists
-table {
-  border-collapse: collapse;
-  vertical-align: top;
-}
-
-table.list {
-  width:100%;
-}
-
-table.list tr td {
-  border: 1px solid #999999;
-}
-
-table.list tr th {
-  border: 2px solid #999999;
-  background: #cc0000;
-  color: white;
-  text-align: left;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-/* Paging records table 
-
-table.levels {
-  width:50%;
-}
-
-table.levels tr td {
-  border: 1px solid yellow;
-  height: 2em;
-  padding: 5px;
-  width: 50%;
-}
-
-table.levels tr:nth-child(even) {background-color: #cc0000}
-
-/* Forms 
-
-dl {
-  clear: both;
-  overflow: hidden;
-}
-
-dt {
-  float: left;
-  font-weight: bold;
-  width: 150px;
-}
-
-dd {
-  float: left;
-  margin-left: 1em;
-}
-
-#operations {
-  clear: both;
-  margin: 1em 0 1em 75px;
-}
-
-input[type=text], input[type=email]{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-bottom: 12px;
-}
-
-/* Makes only the sign-up form input boxes wider
-.sign-up {
-	width: 50%;
-}
-
-/* Errors 
-
-.errors {
-  display: inline-block;
-  border: 2px solid red;
-  color: red;
-  padding: 1em;
-  margin-bottom: 1em;
-}
-
-.errors ul {
-  margin-bottom: 0;
-  padding-left: 1em;
-}
-*/

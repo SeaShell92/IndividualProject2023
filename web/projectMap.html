@@ -16,24 +16,37 @@
     <script src="js/majorHospitals.js"></script>
   </head>
   <body>
-    <div id="page">
-        <navigation>
-            <ul>
-              <li><a href="home.html">Home</a></li>
-              <li class="active"><a href="projectMap.html">Map</a></li>
-            </ul>
-        </navigation>
-        <div id="alert">
-          <p>This is the map page. This space is reserved for messages.</p>
-        </div>
-        <section>
-          <div id="map_space"><p>map space</p></div>
-        </section>
-        <div id="content"><p>Information that changes a lot can go down here? (content)</p></div>
-        <footer>
-          <p> Website design &copy; Shelley Lay 2023.  See map for additional attribution.</p>
-        </footer>
+    <navigation>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li class="active"><a href="projectMap.html">Map</a></li>
+      </ul>
+    </navigation>
+    <div id="message">
+    <h1>Welcome</h1>
+      <p>Welcome to the map page.  Feel free to pan and zoom the map below.  Please note that the map covers the whole world but the data in the overlays only covers Wales.</p>
     </div>
+    <section>
+      <div id="map_space"></div>
+    </section>
+    <div id="content">
+    <h2>Information</h2>
+      <p>Shown on the map when the page loads is the Open Street Map and an overlay that clusters all accidents in Wales over the period 2016-2019.</p>
+      <p>In the top right corner is the layer control which allows you to switch between layers.  There is another base map available and several overlays explained below:</p>
+      <ol>
+        <li>All Accidents - The cluster map overlay of accidents (this option is enabled by default).</li>
+        <li>Accidents Near Schools - All accidents that occur within a 500m radius of each secondary school in Wales.</li>
+        <li>Accidents Near Hospitals - All accidents that occur within a 1km radius of each major A&E Hosptial, colour coded by severity.</li>
+      </ol>
+      <p>You can click on the numbers of the "All Accidents" overlay to automatically zoom to the area covered by the cluster for more information.
+        Each blue marker is the geographic location of one accident.
+      </p>
+      <p>The first overlay uses unfiltered data and the other overlays are the results of SQL queries used to filter the data.</p>
+    </div>
+    <footer>
+      <p> Website design &copy; Shelley Lay 2023.  See map for additional attribution.</p>
+    </footer>
+
     <script src="js/mapLayers.js"></script>
   </body>
 </html>
