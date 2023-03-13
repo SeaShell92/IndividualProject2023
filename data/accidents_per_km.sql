@@ -29,9 +29,30 @@ where a.id < 201
 /* need to fix */
 order by a.id, st_distance(a.geom, r.geom) asc);
 
+/*new step 1 - match accidents to roads */
+/*made this table instead of fixing accidents_and_roads*/
+
+drop table if exists accidents_road_id;
+create table roadsafety.accidents_road_id as(
+select distinct on (a.id) a.*,  r.id as roadid
+from roadsafety.accidents as a
+join roadsafety.t1 as r
+on st_dwithin(a.geom, r.geom, 30)
+order by a.id, st_distance(a.geom, r.geom) asc);
+
+/*altered created table to add constraints to make queries faster later */
+ALTER TABLE roadsafety.accidents_road_id
+  ADD CONSTRAINT accident_id_pk 
+    PRIMARY KEY (id);
+
+ALTER TABLE roadsafety.accidents_road_id
+  ADD CONSTRAINT road_id_fk 
+    FOREIGN KEY (roadid) REFERENCES roadsafety.t1 (id);
+
+/* the result is a carbon copy accidents table with the road id (from the t1 table above) attached to each accident, determined by how close they are.  If an accident is more than 30m away from the road, it does not get included in the data set */
 
 /* step 2 - calculate road length */
-
+/* step 2 - does not need to be it's own table, step removed*/
 drop table if exists road_length;
 create table road_length AS
 	SELECT id, old_id, st_length(geom) as length
@@ -47,3 +68,11 @@ FROM accidents_and_roads as a
 JOIN road_length as l ON a.old_id = l.old_id
 GROUP BY a.roadid, l.length
 ORDER BY count desc;
+
+/* new step 2 - join accidents_road_id to t1, count and calculate length at the same time */
+
+select a.roadid, count(a.*) as "accident_count", st_length(r.geom)/1000 as "road_length_km", (count(a.*)/(st_length(r.geom)/1000)) as "accidents_per_km", r.geom
+from accidents_road_id as a
+join t1 as r
+on r.id = a.roadid
+group by a.roadid, r.geom;
