@@ -7,6 +7,12 @@ var humanOSM = L.tileLayer('https://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
     attribution: 'Map Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 
+var accidentsWMS = L.tileLayer.wms('https://ces-gis.southwales.ac.uk:2345/geoserver/wms', {
+    layers: 's27:accidents_per_km',
+    format: 'img/png',
+    attribution: 'GeoServer: ces-gis'
+});
+
 // cluster accident data (density)
 //the "default" state of the map when it loads in.
 var clusterAll = L.markerClusterGroup();
@@ -135,4 +141,4 @@ var overlayQueriesObject = {
 var layerControl = L.control.layers(baseMapsObject, overlayQueriesObject).addTo(theMap);
 
 //how to add future query to layer control instead of adding to object.
-//layerControl.addOverlay(accidentsWMS, "Accidents per km");
+layerControl.addOverlay(accidentsWMS, "Accidents per km");
