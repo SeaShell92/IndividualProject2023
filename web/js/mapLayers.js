@@ -9,7 +9,7 @@ var humanOSM = L.tileLayer('https://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
 
 var accidentsWMS = L.tileLayer.wms('https://ces-gis.southwales.ac.uk:2345/geoserver/wms', {
     layers: 's27:accidents_per_km',
-    format: 'img/png',
+    format: 'image/png',
     attribution: 'GeoServer: ces-gis'
 });
 
