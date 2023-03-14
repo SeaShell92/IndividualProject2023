@@ -70,9 +70,12 @@ GROUP BY a.roadid, l.length
 ORDER BY count desc;
 
 /* new step 2 - join accidents_road_id to t1, count and calculate length at the same time */
+/*result stored in table */
 
+drop table if exists roadLength_countAccidents;
+create table roadsafety.roadLength_countAccidents as(
 select a.roadid, count(a.*) as "accident_count", st_length(r.geom)/1000 as "road_length_km", (count(a.*)/(st_length(r.geom)/1000)) as "accidents_per_km", r.geom
-from accidents_road_id as a
-join t1 as r
+from roadsafety.accidents_road_id as a
+join roadsafety.t1 as r
 on r.id = a.roadid
-group by a.roadid, r.geom;
+group by a.roadid, r.geom);
